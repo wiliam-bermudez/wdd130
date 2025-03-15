@@ -21,9 +21,7 @@ main img {
     box-shadow: 0 0 30px gray;
 }
 
-p{
-    padding: 0 px;
-}
+
 
 main{
     max-width: 840px;
@@ -33,7 +31,7 @@ aside {
     width: 28rem;
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 0.2);
-    padding: Irem;
+    padding: 1rem;
     background-color: #eee;
     color: #333;
     text-align: center;
