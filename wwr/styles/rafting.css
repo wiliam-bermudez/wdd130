@@ -312,3 +312,10 @@ footer p{
     box-shadow: 0 10px 25px var(--secondary-color);
 
   }
+
+  .GenInfo{
+    margin-top: -400px;
+    display: flex;
+    flex-direction: column;
+  }
+  
