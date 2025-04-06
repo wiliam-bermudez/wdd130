@@ -39,7 +39,6 @@ header nav a {
     font-size: 16px;
     color: white;
     font-weight: bold;
-    transition: all 0.3s ease-in-out;
     border-radius: 6px; 
 }
 
@@ -47,6 +46,11 @@ header nav a:hover {
     background: rgba(255, 255, 255, 0.2); 
     color: #f1c40f;
 }
+
+main img{
+    margin-left: 100px;
+}
+
 .hero {
     position: relative;
     width: 100%;
@@ -142,6 +146,61 @@ p {
 
 }
 
+
+.title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.EmployeePic {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+#greatTeam{
+    margin-top: -1px;
+    text-align: center;
+}
+.employee {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+}
+
+.EmployeePic img {
+    width: 110%;
+    height: 100px;
+}
+
+#EmploExpla{
+    position: absolute;
+    margin-left: 1100px;
+    font-style: italic;
+    width: 400px;
+}
+
+
+.AskInformation{
+    font-family: inherit;
+    font-size: 100%;
+    width: 40%;
+    padding: auto;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.AskInformation input{
+    display: flex;
+
+}
+
+.ShortText{
+    width: 70px;
+}
+
 footer {
     text-align: center;
     margin-top: 20px;
@@ -149,6 +208,7 @@ footer {
     background: var(--secondary-color);
     font-size: 12px;
     display: flex;
+    
     justify-content: space-between;
     flex: 1 1 100%;
 }
@@ -156,9 +216,99 @@ footer {
 footer p{
     margin-left: 300px;
     text-align: center;
+    color: #FFFFFF;
 }
 
 .SocialMedia img {
     width: 25px;
     margin: 5px;
 }
+
+
+.ask-information {
+    width: 350px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 0 10px 25px var(--secondary-color);
+  }
+  
+  fieldset {
+    border: none;
+    text-align: center;
+  }
+  
+  legend {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #666;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-size: 14px;
+  }
+  
+  input[type="text"]::placeholder,
+  input[type="email"]::placeholder,
+  textarea::placeholder {
+    color: #aaa;
+    font-style: italic;
+  }
+  
+  .radio-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra los radio buttons */
+    gap: 5px;
+  }
+  
+  .radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  input[type="checkbox"] {
+    margin-top: 5px;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #e0e0e0;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #d6d6d6;
+  }
+
+  .MapAndForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 110px; 
+  }
+
+  .map-container iframe {
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 0 10px 25px var(--secondary-color);
+
+  }
