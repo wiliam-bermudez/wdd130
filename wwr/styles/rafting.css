@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #535353;
-    --secondary-color: #688E6D;
+    --primary-color: #000000;
+    --secondary-color: #5FCE6E;
     --accent1-color: #C1C1C1;
     --accent2-color: #EAEAEA;
 }
@@ -277,7 +277,7 @@ footer {
 footer p{
     margin-left: 300px;
     text-align: center;
-    color: #FFFFFF;
+    color: var(--primary-color);
 }
 
 .SocialMedia img {
