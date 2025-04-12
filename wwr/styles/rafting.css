@@ -122,8 +122,8 @@ main img{
     font-size: 20px;
     text-transform: uppercase;
     margin-top: 40px;
-    margin-bottom: -80px;
-    
+    margin-bottom: -150px;
+    border-bottom: 2px solid #555;
 }
 
 h2 {
