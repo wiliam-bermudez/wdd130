@@ -68,8 +68,8 @@ main img{
     z-index: 2;
 }
 
-
-.hero img {
+.hero img   {
+    margin-left: -0px;
     width: 100%;
     height: auto;
     display: block;
@@ -153,33 +153,89 @@ p {
     margin-bottom: 20px;
 }
 
+.TripPic{
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.TripPic img {
+    width: 150px;
+    height: 150px;
+}
+
+.TripPic p{
+    align-items: center;
+    margin-left: 50px;
+}
+
+
 .EmployeePic {
     display: flex;
-    width: 50%;
+    width: 30%;
     justify-content: space-around;
+    margin-left: -75px;
 }
 
 #greatTeam{
     margin-top: -1px;
     text-align: center;
 }
+
 .employee {
-    display: flex;
-    flex-direction: column; 
+    
     align-items: center;
-    text-align: center;
+    text-align: center;     
 }
 
 .EmployeePic img {
-    width: 110%;
-    height: 100px;
+    width: 150px;
+    height: 150px;
+}
+
+.GeneralPic{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 50%;
+    justify-content: space-around;
+    gap: 5px;
+    margin-left: -75px;
+}
+
+.GenPic{    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    text-align: center;   
+    grid-column: 2/2;
+    margin-left: 300px;
+}
+
+.GeneralPic p{
+    padding: 30px;
+    gap: 60px;
+    grid-column: 3/4;
+}
+.GeneralPic img{
+    width: 250px;
+    height: 200px;
 }
 
 #EmploExpla{
     position: absolute;
-    margin-left: 1100px;
+    margin-right: -1500px;
     font-style: italic;
-    width: 400px;
+    width: 200px;
+    text-align: justify;
+}
+
+#CuriousFact{
+    text-align: justify;
+    margin-top: 50px;
+    padding-right: 300px;
+    padding-left: 300px;
 }
 
 
@@ -270,7 +326,7 @@ footer p{
   .radio-group {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centra los radio buttons */
+    align-items: center; 
     gap: 5px;
   }
   
@@ -299,23 +355,101 @@ footer p{
     background-color: #d6d6d6;
   }
 
-  .MapAndForm {
+#Bt_Trips{
+    text-decoration: none;
+    display: block;
+    width: 70px;
+    padding: 10px;
+    background-color: #e0e0e0;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 250px;
+    margin-left: 80px;
+    color: black;
+}
+
+#Bt_Trips:hover{
+    background: rgba(255, 255, 255, 0.2); 
+    color: #f1c40f;
+}
+
+#ContacBut{
+    text-decoration: none;
+    display: block;
+    width: 70px;
+    padding: 10px;
+    background-color: #e0e0e0;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: -0px;
+    margin-left: 80px;
+    color: black;
+}
+
+#ContacBut:hover{
+    background: rgba(255, 255, 255, 0.2); 
+    color: #f1c40f;
+}
+
+.MapAndForm {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 110px; 
-  }
+}
 
-  .map-container iframe {
+.map-container iframe {
     border-radius: 10px;
     border: 2px solid black;
     box-shadow: 0 10px 25px var(--secondary-color);
+}
 
-  }
+.TripsButton{
+    position: relative;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 0 10px 25px var(--secondary-color);
+    width: 250px;
+    height: 250px;
+}
+
+.ContactButton{
+    border-radius: 10px;
+    margin-left: 700px;
+    width: 250px;
+    height: 250px;
+}
+
+.ContactButton p{
+    margin-left:30px;
+}
+
+
+#TimeExplore{
+    margin-top: -0px;
+}
+
+#AnyQuest{
+    margin-left: 80px;
+    margin-top: -150px;
+}
+
+.TripsButton p{
+    margin-bottom: -200px;
+}
 
   .GenInfo{
     margin-top: -400px;
     display: flex;
     flex-direction: column;
   }
+
+#TripTable{
+    border-collapse: collapse; 
+    text-align: center;
+}
   
